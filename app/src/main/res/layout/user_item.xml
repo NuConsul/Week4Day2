@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+
+    <TextView
+        android:id="@+id/tvUsernameDisplay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="36sp"
+        android:textColor="#E00707"/>
+
+    <TextView
+        android:id="@+id/tvEmailDisplay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="36sp"
+        android:textColor="#E00707"/>
+
+    <TextView
+        android:id="@+id/tvPhoneNumberDisplay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="36sp"
+        android:textColor="#E00707"/>
+
+    <ImageView
+        android:id="@+id/imgPictureDisplay"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+
+</LinearLayout>
+
+
+<!--
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+</LinearLayout>
+
+-->

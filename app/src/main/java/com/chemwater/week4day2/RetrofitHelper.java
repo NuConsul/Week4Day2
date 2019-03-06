@@ -33,7 +33,7 @@ public class RetrofitHelper {
     }
     //get the response
     public Call<UserResponse> getRandomUsers(String numOfResponses) {
-        return getUserResponse().getRandomUsers("5");
+        return getUserResponse().getRandomUsers("10");
     }
 
 
